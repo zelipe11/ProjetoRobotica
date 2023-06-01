@@ -1,0 +1,72 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.575662634138297 0.5763824858937046 0.5799963462056902 2.089274745217823
+  position -0.00011176808604261183 -0.0017770590364769665 2.720423152275058
+  follow "WoodenBox"
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+CircleArena {
+  radius 0.6
+}
+E-puck {
+  translation -0.4935693106044259 5.273635923647022e-09 -5.871342570827609e-05
+  rotation 0.015483191401806002 0.9998801280123888 -1.974699833885928e-05 0.0008847506354839492
+  supervisor TRUE
+}
+DEF caixaVazia WoodenBox {
+  translation 0.4999996841846676 -3.1581533245452787e-07 0.039989176328600225
+  rotation 0.7071067811840553 -0.7071067811890396 -1.281235461533771e-12 1.1165816378895694e-05
+  name "WoodenBox"
+  size 0.08 0.08 0.08
+  mass 0.03
+}
+WoodenBox {
+  translation 0 0.45 0.04
+  name "wooden box(1)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0 -0.45 0.04
+  name "wooden box(2)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0 0 0.04
+  name "wooden box(3)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0.25 0 0.04
+  name "wooden box(4)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation -0.25 0 0.04
+  name "wooden box(5)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation -0.25 -0.25 0.04
+  name "wooden box(6)"
+  size 0.08 0.08 0.08
+}
+WoodenBox {
+  translation 0.25 0.25 0.04
+  name "wooden box(7)"
+  size 0.08 0.08 0.08
+}
